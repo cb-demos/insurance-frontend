@@ -89,6 +89,59 @@ const Form = ({ onSubmit }: { onSubmit: Function }) => {
           <input type="radio" name="tobacco" id="no_tobacco" />
         </div>
         <div className="space-x-2">
+          <span>Do you have any allergies?</span>
+          <label htmlFor="yes_allergies">Yes</label>
+          <input type="radio" name="allergies" id="yes_allergies" />
+          <label htmlFor="no_allergies">No</label>
+          <input type="radio" name="allergies" id="no_allergies" />
+        </div>
+        <div className="space-x-2">
+          <span>Do you have any pre-existing health conditions?</span>
+          <label htmlFor="yes_health_conditions">Yes</label>
+          <input
+            type="radio"
+            name="health_conditions"
+            id="yes_health_conditions"
+          />
+          <label htmlFor="no_health_conditions">No</label>
+          <input
+            type="radio"
+            name="health_conditions"
+            id="no_health_conditions"
+          />
+        </div>
+
+        <div className="space-x-2">
+          <span>Is there currently a warrant out for your arrest?</span>
+          <label htmlFor="yes_warrant">Yes</label>
+          <input type="radio" name="warrant" id="yes_warrant" />
+          <label htmlFor="no_warrant">No</label>
+          <input type="radio" name="warrant" id="no_warrant" />
+        </div>
+
+        <div className="space-x-2">
+          <span>Do you have any irrational fears?</span>
+          <label htmlFor="yes_fears">Yes</label>
+          <input type="radio" name="fears" id="yes_fears" />
+          <label htmlFor="no_fears">No</label>
+          <input type="radio" name="fears" id="no_fears" />
+        </div>
+        <div className="space-x-2">
+          <span>Is it clowns?</span>
+          <label htmlFor="yes_clowns">Yes</label>
+          <input type="radio" name="clowns" id="yes_clowns" />
+          <label htmlFor="no_clowns">No</label>
+          <input type="radio" name="clowns" id="no_clowns" />
+        </div>
+        <div className="space-x-2">
+          <span>Are you actually reading these?</span>
+          <label htmlFor="yes_reading">Yes</label>
+          <input type="radio" name="reading" id="yes_reading" />
+          <label htmlFor="no_reading">No</label>
+          <input type="radio" name="reading" id="no_reading" />
+        </div>
+
+        <div className="space-x-2">
           <button
             type="submit"
             className="bg-blue-500 text-white px-3 py-1 hover:bg-blue-600 active:bg-blue-700"
